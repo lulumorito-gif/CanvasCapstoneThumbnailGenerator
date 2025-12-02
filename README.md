@@ -7,28 +7,34 @@ A floating “Make Thumbnails” button is injected into the page and allows you
 ## 🧭 How to Use the Script
 
 1. Open the SharePoint List
-Navigate to the list or library containing Capstone items e.g.,2024 dataset.
+   
+2. Navigate to the list or library containing Capstone items e.g.,2024 dataset.
 
-2. Switch to Grid View
-Ensure the list is in “Edit in grid view” mode before running the script.
+3. Switch to Grid View
+   
+4. Ensure the list is in “Edit in grid view” mode before running the script.
 
-3. Open the Browser Console
+5. Open the Browser Console
 - Windows: `F12`
 - Mac: `Cmd + Option + J`
-Navigate to the Console tab.
 
-4. Paste the Script
+6. Navigate to the Console tab.
+
+7. Paste the Script.
+  
 Copy and paste the full script into the console and press Enter.
+
 A floating blue button labeled “Make Thumbnails” will appear at the bottom-right corner.
 
-5. Select the Rows to Process
+8. Select the Rows to Process
+
 Click to select one or more rows.
 Each selected row must contain:
 - A valid Poster link 
 - SharePointPDFlink
 - An empty or outdated PosterThumbnail value
 
-6. Generate Thumbnails
+9. Generate Thumbnails
 Click the “Make Thumbnails” button or press Alt + Shift + T.
 The script will:
 - Double-click the PosterThumbnail cell
@@ -37,7 +43,7 @@ The script will:
 - Upload it automatically
 - Continue to the next selected row
 
-7. Remove the Floating Button
+10. Remove the Floating Button
 Right-click the button to remove it.
 
 ## ⚙️ What the Script Can Do
